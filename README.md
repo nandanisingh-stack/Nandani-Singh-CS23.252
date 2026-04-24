@@ -597,13 +597,282 @@ public class Abst {
 ```
 <img width="286" height="101" alt="image" src="https://github.com/user-attachments/assets/99333c7b-9eac-485b-bb37-81623b6fe7dc" />
 
-[program11 wap to show ](#assignment11)
+
+
+
+[program11 wap to show  ArrayList operations](#assignment11)
 ##assignment11
 ```
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Iterator;
+
+public class Arraylist{
+    public static void main(String[] args) {
+        // 1. Initialize List
+        List<String> list = new ArrayList<>();
+
+        // --- ADD ---
+        list.add("Apple");          // add(E e) - Adds at end
+        list.add("Mango"); 
+        list.add(1, "Banana");      // add(int index, E e) - Inserts at index 1
+        System.out.println("After Adding: " + list);
+
+        // --- ACCESS ---
+        String fruit = list.get(0); // get(int index)
+        int position = list.indexOf("Banana"); // indexOf(Object o)
+        System.out.println("Element at 0: " + fruit);
+        System.out.println("Index of Banana: " + position);
+
+        // --- UPDATE ---
+        list.set(2, "Orange");      // set(int index, E e) - Replaces Mango
+        System.out.println("After Update: " + list);
+
+        // --- SIZE / CHECK ---
+        System.out.println("Size of list: " + list.size()); // size()
+        System.out.println("Is list empty? " + list.isEmpty()); // isEmpty()
+        System.out.println("Contains 'Apple'? " + list.contains("Apple")); // contains()
+
+        // --- TRAVERSAL ---
+        System.out.print("Using forEach: ");
+        list.forEach(item -> System.out.print(item + " ")); // forEach()
+        System.out.println();
+
+        System.out.print("Using Iterator: ");
+        Iterator<String> it = list.iterator(); // iterator()
+        while(it.hasNext()) {
+            System.out.print(it.next() + " ");
+        }
+        System.out.println();
+
+        // --- REMOVE ---
+        list.remove(1);             // remove(int index) - Removes Banana
+        list.remove("Apple");       // remove(Object o) - Removes Apple by name
+        System.out.println("After Removing: " + list);
+
+        list.clear();               // clear() - Wipes the list
+        System.out.println("After Clear, size is: " + list.size());
+    }
+
+}
+
+```
+<img width="354" height="285" alt="image" src="https://github.com/user-attachments/assets/e55e87c4-202c-4f10-8cce-bc7b8067b7c0" />
+
+[program12 wap to show  LinkedList operations ](#assignment12)
+##assignment12
+```
+import java.util.LinkedList;
+        public class Ldls {
+            public static void main(String[] args) {
+
+        LinkedList<String> list = new LinkedList<>();
+
+        //  Add methods
+        list.add("Apple");
+        list.addFirst("Banana");
+        list.addLast("Mango");
+
+        // �Access methods
+        System.out.println("First: " + list.getFirst());
+        System.out.println("Last: " + list.getLast());
+
+        // Update
+        list.set(1, "Orange");
+            
+            }
+        }
+```
+<img width="154" height="94" alt="image" src="https://github.com/user-attachments/assets/c50adafe-a886-401f-bd86-88d0c3a1472e" />
+
+
+[program13 wap to show   Hashmap operations ](#assignment13)
+##assignment13
+```
+import java.util.HashMap; // Fixed typo: mport -> import
+import java.util.Map;
+
+public class Hashmappg { // Class name must match your filename (Hashmappg.java)
+    public static void main(String[] args) {
+
+        HashMap<Integer, String> ht = new HashMap<>();
+
+        // 1. put(K key, V value) - Adds or updates
+        ht.put(10, "Apple");
+        ht.put(20, "Banana");
+        ht.put(30, "Cherry");
+
+        // 2. putIfAbsent(K key, V value) - Adds only if key doesn't exist
+        ht.putIfAbsent(20, "Blueberry"); // Won't change Banana
+        ht.putIfAbsent(40, "Date");      // Will add Date
+
+        // 3. get(Object key) - Retrieve value
+        System.out.println("Key 10: " + ht.get(10));
+
+        // 4. getOrDefault(Object key, V defaultValue)
+        System.out.println("Key 50: " + ht.getOrDefault(50, "Not Found"));
+
+        // 5. replace(K key, V value) - Updates existing key
+        ht.replace(30, "Cranberry");
+
+        // 6. remove(Object key)
+        ht.remove(40);
+
+        // 7. containsKey & containsValue
+        System.out.println("Has key 20? " + ht.containsKey(20));
+        System.out.println("Has value 'Apple'? " + ht.containsValue("Apple"));
+
+        // 8. size() & isEmpty()
+        System.out.println("Size: " + ht.size());
+        System.out.println("Is empty? " + ht.isEmpty());
+
+        // 9. keySet() - Get all keys
+        System.out.println("All Keys: " + ht.keySet());
+
+        // 10. values() - Get all values
+        System.out.println("All Values: " + ht.values());
+
+        // 11. entrySet() - Get key-value pairs
+        System.out.println("Full Entries:");
+        for (Map.Entry<Integer, String> entry : ht.entrySet()) {
+            System.out.println(entry.getKey() + " => " + entry.getValue());
+        }
+
+        // 12. clear()
+        ht.clear();
+        System.out.println("Size after clear: " + ht.size());
+    }
+}
+
+
+
+```
+<img width="367" height="329" alt="image" src="https://github.com/user-attachments/assets/3f19712e-aeee-4fee-acd2-55f68313bbc9" />
+
+
+
+[program14 wap to show  HashTree operations ](#assignment14)
+
+##assignment14
+
+```
+import java.util.TreeSet;
+public class HTree {
+    public static void main(String[] args) {
+
+    
+
+        TreeSet<Integer> set = new TreeSet<>();
+
+        // 1. add(E e) - Adds elements and sorts them automatically
+        set.add(50);
+        set.add(10);
+        set.add(30);
+        set.add(20);
+        set.add(40);
+
+        // 2. size()
+        System.out.println("TreeSet: " + set + " | Size: " + set.size());
+
+        // 3. contains(Object o)
+        System.out.println("Contains 30? " + set.contains(30));
+
+        // 4. first() and last()
+        System.out.println("First (Lowest): " + set.first());
+        System.out.println("Last (Highest): " + set.last());
+
+        // 5. higher(E e) and lower(E e)
+        System.out.println("Higher than 20: " + set.higher(20)); // Smallest element > 20
+        System.out.println("Lower than 20: " + set.lower(20));   // Largest element < 20
+
+        // 6. remove(Object o)
+        set.remove(30);
+        System.out.println("After removing 30: " + set);
+
+        // 7. pollFirst() - Removes and returns the first (lowest) element
+        System.out.println("Removed First: " + set.pollFirst());
+
+        // 8. pollLast() - Removes and returns the last (highest) element
+        System.out.println("Removed Last: " + set.pollLast());
+
+        System.out.println("Set after polling: " + set);
+
+        // 9. clear()
+        set.clear();
+        System.out.println("Is empty after clear? " + set.isEmpty());
+    }
+}
 ```
 
 
 
+
+
+<img width="377" height="244" alt="image" src="https://github.com/user-attachments/assets/544e7b17-83ce-4776-9480-389f35fa5daa" />
+
+
+[program15 wap to show  Stack operations ](#assignment15)
+
+##assignment15
+```
+import java.util.Stack;
+
+
+public class Stackpg {
+    
+    public static void main(String[] args) {
+        // Initialize Stack
+        Stack<Integer> stack = new Stack<>();
+
+        // 1. push(E item) - Adds elements to the top
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        stack.push(40);
+        System.out.println("Stack after pushes: " + stack);
+
+        // 2. peek() - Looks at the top element without removing it
+        System.out.println("Top element (peek): " + stack.peek());
+
+        // 3. pop() - Removes and returns the top element
+        System.out.println("Removed element (pop): " + stack.pop());
+
+        // 4. isEmpty() - Checks if stack is empty
+        System.out.println("Is stack empty? " + stack.isEmpty());
+
+        // 5. search(Object o) - Returns 1-based position from the top
+        int position = stack.search(20); 
+        System.out.println("Position of 20 from top: " + position);
+
+        // 6. size() - Returns number of elements
+        System.out.println("Current size: " + stack.size());
+
+        // 7. contains(Object o) - Checks if element exists
+        System.out.println("Does it contain 10? " + stack.contains(10));
+
+        // 8. iterator() - To traverse the stack
+        System.out.print("Traversing with Iterator: ");
+       
+        
+        // 9. clear() - Removes everything
+        stack.clear();
+        System.out.println("Stack after clear: " + stack);
+        System.out.println("Is empty now? " + stack.isEmpty());
+    }
+}
+
+```
+<img width="429" height="232" alt="image" src="https://github.com/user-attachments/assets/12354dfc-ba74-4e31-8c12-5a7561c6234c" />
+
+[program16 wap to show  ](#assignment16)
+
+##assignment16
+```
+
+
+
+
+```
 
 
 
