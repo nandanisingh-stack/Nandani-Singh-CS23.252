@@ -1174,6 +1174,62 @@ OUTPUT:-
 <img width="413" height="165" alt="image" src="https://github.com/user-attachments/assets/1a503523-9d02-4413-8ad1-34d2e50cf279" />
 <img width="488" height="199" alt="image" src="https://github.com/user-attachments/assets/72054c3e-58d4-42d0-81f8-8442539e3f79" />
 
+[program17 Write a Java program to demonstrate multithreading by creating multiple threads using the Thread class. ](#assignment17)
+
+##assignment18
+
+
+CODE:-
+```
+package nandanijava;
+
+public class ThreadNew {
+
+    public static void main(String[] args) {
+        Thread1 t1=new Thread1();
+        Thread2 t2=new Thread2();
+        Thread3 t3=new Thread3();
+        
+        t1.start();
+        t2.start();
+        t3.start();
+        
+        t1.run();
+        t2.run();
+        t3.run();
+    }
+    
+}
+class Thread1 extends Thread{
+    public void run(){
+        for(int i=1;i<=100;i++){
+            System.out.println("Thread1 "+i);
+        }
+    }
+}
+
+
+class Thread2 extends Thread{
+    public void run(){
+        for(int i=1;i<=100;i++){
+            System.out.println("Thread2 "+i);
+        }
+    }
+}
+
+
+class Thread3 extends Thread{
+    public void run(){
+        for(int i=1;i<=100;i++){
+            System.out.println("Thread3 "+i);
+        }
+    }
+}
+```
+OUTPUT:-
+
+<img width="290" height="173" alt="image" src="https://github.com/user-attachments/assets/90a0bcb8-a9cf-45fa-b6e0-d1da2604c44a" />
+
 
 
 
