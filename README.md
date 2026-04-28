@@ -1350,6 +1350,208 @@ public class ListTest {
 OUTPUT:-
 
 <img width="388" height="215" alt="image" src="https://github.com/user-attachments/assets/8f954015-f9de-4afa-a032-fdecea07d5ff" />
+[program 21 Write a Java program to demonstrate the use of the LinkedList class and its various methods. ](#assignment21)
+
+##assignment21
+CODE:-
+```
+package nandanijava;
+import java.util.*;
+
+public class LinkedListTest {
+    public static void main(String[] args) {
+
+        LinkedList<String> list = new LinkedList<>();
+
+        list.add("Apple");
+        list.addFirst("Banana");
+        list.addLast("Mango");
+
+        System.out.println("First: " + list.getFirst());
+        System.out.println("Last: " + list.getLast());
+
+        list.set(1, "Orange");
+
+        list.removeFirst();
+        list.removeLast();
+
+        System.out.println("Size: " + list.size());
+
+        System.out.println("Elements:");
+        for(String item : list) {
+            System.out.println(item);
+        }
+
+        System.out.println("Contains Orange? " + list.contains("Orange"));
+
+        list.clear();
+        System.out.println("Is Empty? " + list.isEmpty());
+    }
+}
+```
+OUTPUT:-
+
+<img width="458" height="151" alt="image" src="https://github.com/user-attachments/assets/b6c73034-77c9-4205-a033-93f76b07f9d8" />
+
+[program 22  Write a Java program to demonstrate the use of the ArrayList class and its commonly used methods.](#assignment22)
+
+##assignment22
+
+
+CODE:-
+```
+
+package nandanijava;
+import java.util.*;
+
+public class ArrayListTest {
+
+    public static void main(String[] args) {
+        ArrayList<String>list = new ArrayList<>();
+        list.add("Apple");
+        list.add("Mango");
+        list.add("Mango");
+        list.add(1,"Orange");
+        System.out.println("Element at index 2: "+ list.get(2));
+        list.set(0,"Grapes");
+        list.remove("Banana");
+        System.out.println("Size: " + list.size());
+        System.out.println("Contains Mango? " + list.contains("Mango"));
+        System.out.println("List elements:");
+        for(String item : list) {
+            System.out.println(item);
+        }
+        list.clear();
+        System.out.println("Is Empty? " + list.isEmpty());
+
+        
+    }
+    
+}
+
+```
+OUTPUT:-
+
+<img width="482" height="176" alt="image" src="https://github.com/user-attachments/assets/19bb1f6f-5aa9-443c-af6b-ecb94bafe7e3" />
+
+[program 23  Write a Java program to demonstrate the use of the Stack class and its basic operations.](#assignment23)
+
+##assignment23
+ 
+CODE:-
+```
+package nandanijava;
+import java.util.Stack;
+
+public class StackTest {
+    public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+
+        System.out.println("Stack: " + stack);
+
+        System.out.println("Top element: " + stack.peek());
+
+        System.out.println("Removed: " + stack.pop());
+
+        System.out.println("Stack after pop: " + stack);
+    }
+}
+
+```
+OUTPUT:-
+
+<img width="482" height="151" alt="image" src="https://github.com/user-attachments/assets/cea642ee-0363-4335-a8b8-e12bf17ec4af" />
+
+[program 24  Write a Java program to demonstrate the use of the HashMap class and its various operations.](#assignment24)
+
+##assignment24
+ 
+
+CODE:-
+```
+package nandanijava;
+import java.util.HashMap;
+
+public class HashMapTest {
+    public static void main(String[] args) {
+        HashMap<Integer, String> map = new HashMap<>();
+
+        map.put(1, "Apple");
+        map.put(2, "Banana");
+        map.put(3, "Mango");
+
+        System.out.println(map.get(2));
+
+        map.remove(1);
+
+        System.out.println(map.containsKey(3));
+
+        System.out.println("Contains value Mango? " + map.containsValue("Mango"));
+
+        System.out.println("Size: " + map.size());
+
+        System.out.println("All keys: " + map.keySet());
+
+        System.out.println("All values: " + map.values());
+
+        System.out.println("All entries: " + map.entrySet());
+
+        map.putIfAbsent(4, "Orange");
+
+        map.replace(2, "Grapes");
+
+        System.out.println("Updated map: " + map);
+
+        map.clear();
+
+        System.out.println("Is Empty? " + map.isEmpty());
+    }
+}
+```
+OUTPUT:-
+
+<img width="459" height="174" alt="image" src="https://github.com/user-attachments/assets/932a23a6-cca3-4116-ab3f-d6750bda4419" />
+
+[program 25  Write a Java program to demonstrate the use of the TreeSet class and its operations.](#assignment25)
+
+##assignment25
+
+
+CODE:-
+```
+package nandanijava;
+import java.util.TreeSet;
+
+public class HashTreeTest {
+    public static void main(String[] args) {
+
+        TreeSet<Integer> set = new TreeSet<>();
+
+        set.add(50);
+        set.add(10);
+        set.add(30);
+        set.add(20);
+
+        System.out.println("TreeSet: " + set);
+
+        System.out.println("First: " + set.first());
+        System.out.println("Last: " + set.last());
+
+        System.out.println("Higher than 20: " + set.higher(20));
+
+        set.remove(30);
+
+        System.out.println("After removal: " + set);
+    }
+}
+```
+OUTPUT:-
+
+<img width="500" height="202" alt="image" src="https://github.com/user-attachments/assets/984a4f4b-1874-4974-8cc6-4d30c06bab05" />
 
 
 
