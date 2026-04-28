@@ -1292,6 +1292,67 @@ OUTPUT:-
 
 <img width="367" height="166" alt="image" src="https://github.com/user-attachments/assets/5b63324b-d885-44af-b6d1-b2377435b824" />
 
+[program 20 Write a Java program to demonstrate the use of the List interface and ArrayList class.. ](#assignment20)
+
+##assignment20
+
+CODE:-
+```
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package nandanijava;
+import java.util.*;
+/**
+ *
+ * @author Nandani Singh
+ */
+public class ListTest {
+
+    public static void main(String[] args) {
+        List<String>list=new ArrayList<>();
+        list.add("Apple");
+        list.add("Banana");
+        list.add("Mango");
+        list.addFirst("Strawberry");
+        
+        System.out.println("List :-");
+        for(String fruit:list){
+            System.out.println(fruit);
+        }
+        
+        list.clear();
+        System.out.println("List :-");
+         for(String fruit:list){
+            System.out.println(fruit);   
+        }
+        
+        list.add("Banana");
+        list.add("Mango");
+        list.addFirst("Strawberry");
+        list.add(3, "Orange");
+        System.out.println("List :-");
+         for(String fruit:list){
+            System.out.println(fruit);   
+        }
+         
+        String a= list.get(2);
+        System.out.println(a);
+        
+        System.out.println(list.size());
+    }
+    
+    
+}
+
+```
+OUTPUT:-
+
+<img width="388" height="215" alt="image" src="https://github.com/user-attachments/assets/8f954015-f9de-4afa-a032-fdecea07d5ff" />
+
+
+
 
 
 
