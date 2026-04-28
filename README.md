@@ -1389,7 +1389,7 @@ public class LinkedListTest {
     }
 }
 ```
-OUTPUT:-
+
 
 <img width="458" height="151" alt="image" src="https://github.com/user-attachments/assets/b6c73034-77c9-4205-a033-93f76b07f9d8" />
 
