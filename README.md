@@ -547,7 +547,7 @@ class Array {
 [program10 wap to show abstraction](#assignment10)
 ##assignment10
 ```
-package swati singh;
+package nandani singh;
 
 /**
  *
@@ -871,7 +871,7 @@ public class Stackpg {
 
 
 ```
-package com.mycompany.swati;
+package com.mycompany.nandani;
 
 /**
  *
@@ -1120,6 +1120,59 @@ try {
 }
 ```
 <img width="434" height="454" alt="image" src="https://github.com/user-attachments/assets/b55fbe6c-1134-4d5f-8a59-937654587b48" />
+
+[program17 Write a Java program to demonstrate the concept of multiple classes and method execution using a simple loop. ](#assignment17)
+
+##assignment17
+
+CODE:-
+```
+
+package nandanijava;
+
+public class ThreadM {
+
+    public static void main(String[] args) {
+        ThreadTest1 t1=new ThreadTest1();
+        ThreadTest2 t2=new ThreadTest2();
+        ThreadTest3 t3=new ThreadTest3();
+        t1.fun();
+        t2.fun();
+        t3.fun();
+    }
+    
+}
+class ThreadTest1{
+    void fun(){
+        for(int i=1;i<=100;i++){
+            System.out.println("ThreadTest1 "+i);
+        }
+    }
+}
+
+
+class ThreadTest2{
+    void fun(){
+        for(int i=1;i<=100;i++){
+            System.out.println("ThreadTest2 "+i);
+        }
+    }
+}
+
+
+class ThreadTest3{
+    void fun(){
+        for(int i=1;i<=100;i++){
+            System.out.println("ThreadTest3 "+i);
+        }
+    }
+}
+```
+OUTPUT:-
+
+<img width="377" height="206" alt="image" src="https://github.com/user-attachments/assets/3845b5ba-3900-456b-b7db-b67cc08e0259" />
+<img width="413" height="165" alt="image" src="https://github.com/user-attachments/assets/1a503523-9d02-4413-8ad1-34d2e50cf279" />
+<img width="488" height="199" alt="image" src="https://github.com/user-attachments/assets/72054c3e-58d4-42d0-81f8-8442539e3f79" />
 
 
 
