@@ -11,6 +11,16 @@
 
 [program4 wap to input numbers , multiply it , and display the results](#assignment4)
 
+[program 21 Write a Java program to demonstrate the use of the LinkedList class and its various methods. ](#assignment21)
+
+[program 22  Write a Java program to demonstrate the use of the ArrayList class and its commonly used methods.](#assignment22)
+
+[program 23  Write a Java program to demonstrate the use of the Stack class and its basic operations.](#assignment23)
+
+[program 24  Write a Java program to demonstrate the use of the HashMap class and its various operations.](#assignment24)
+
+[program 25  Write a Java program to demonstrate the use of the TreeSet class and its operations.](#assignment25)
+
 ## assignment1
 ```
 import java.util.Scanner;
@@ -1357,9 +1367,9 @@ public class ListTest {
 OUTPUT:-
 
 <img width="388" height="215" alt="image" src="https://github.com/user-attachments/assets/8f954015-f9de-4afa-a032-fdecea07d5ff" />
-[program 21 Write a Java program to demonstrate the use of the LinkedList class and its various methods. ](#assignment21)
 
-##assignment21
+
+## assignment21
 CODE:-
 ```
 package nandanijava;
@@ -1400,9 +1410,9 @@ public class LinkedListTest {
 
 <img width="458" height="151" alt="image" src="https://github.com/user-attachments/assets/b6c73034-77c9-4205-a033-93f76b07f9d8" />
 
-[program 22  Write a Java program to demonstrate the use of the ArrayList class and its commonly used methods.](#assignment22)
 
-##assignment22
+
+## assignment22
 
 
 CODE:-
@@ -1441,9 +1451,9 @@ OUTPUT:-
 
 <img width="482" height="176" alt="image" src="https://github.com/user-attachments/assets/19bb1f6f-5aa9-443c-af6b-ecb94bafe7e3" />
 
-[program 23  Write a Java program to demonstrate the use of the Stack class and its basic operations.](#assignment23)
 
-##assignment23
+
+## assignment23
  
 CODE:-
 ```
@@ -1473,9 +1483,9 @@ OUTPUT:-
 
 <img width="482" height="151" alt="image" src="https://github.com/user-attachments/assets/cea642ee-0363-4335-a8b8-e12bf17ec4af" />
 
-[program 24  Write a Java program to demonstrate the use of the HashMap class and its various operations.](#assignment24)
 
-##assignment24
+
+## assignment24
  
 
 CODE:-
@@ -1523,9 +1533,9 @@ OUTPUT:-
 
 <img width="459" height="174" alt="image" src="https://github.com/user-attachments/assets/932a23a6-cca3-4116-ab3f-d6750bda4419" />
 
-[program 25  Write a Java program to demonstrate the use of the TreeSet class and its operations.](#assignment25)
 
-##assignment25
+
+## assignment25
 
 
 CODE:-
