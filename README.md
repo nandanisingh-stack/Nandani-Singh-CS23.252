@@ -4,7 +4,14 @@
 
 
 [program1 wap to reverse the array](#assignment1)
-##assignment1
+
+[program2 to input/ output methods](#assignment2)
+
+[program3 wap to take input from user and dispaly it](#assignment3)
+
+[program4 wap to input numbers , multiply it , and display the results](#assignment4)
+
+## assignment1
 ```
 import java.util.Scanner;
 public class Revarray {
@@ -62,8 +69,8 @@ void outarrrev(){
 ```
 <img width="557" height="448" alt="image" src="https://github.com/user-attachments/assets/afcdb4f5-0d02-496c-a104-44c604e2ecfb" />
 
-[program2 to input/ output methods](#assignment2)
-##assignment2 
+
+## assignment2 
 ```
 import java.util.Scanner;
 public class Test {
@@ -99,8 +106,8 @@ void output()
 <img width="338" height="98" alt="image" src="https://github.com/user-attachments/assets/cda85ccc-bc5b-4f8c-bb0a-a7d42bf868e1" />
 
 
-[program3 wap to take input from user and dispaly it](#assignment3)
-##assignment3
+
+## assignment3
 ```
 import java.util.Scanner;
 
@@ -163,8 +170,8 @@ class Test3 {
 ```
 <img width="361" height="132" alt="image" src="https://github.com/user-attachments/assets/cb0a8271-bf0a-408b-bf9c-2e1370682f9a" />
 
-[program4 wap to input numbers , multiply it , and display the results](#assignment4)
-##assignment4
+
+## assignment4
 ```
 import java.util.Scanner;
 
