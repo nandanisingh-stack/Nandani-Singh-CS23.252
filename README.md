@@ -11,6 +11,38 @@
 
 [program4 wap to input numbers , multiply it , and display the results](#assignment4)
 
+[program5 wap to perform time operations ](#assignment5)
+
+[program6 wap to add time](#assignmet6)
+
+[program7 wap to add time (2) ](#assignment7)
+
+[program8 wap to add distances](#assignment8)
+
+[program9 wap to perform operations on 2D array](#assignment9)
+
+[program10 wap to show abstraction](#assignment10)
+
+[program11 wap to show  ArrayList operations](#assignment11)
+
+[program12 wap to show  LinkedList operations ](#assignment12)
+
+[program13 wap to show   Hashmap operations ](#assignment13)
+
+[program14 wap to show  HashTree operations ](#assignment14)
+
+[program15 wap to show  Stack operations ](#assignment15)
+
+[program16 wap to show  ](#assignment16)
+
+[program17 Write a Java program to demonstrate the concept of multiple classes and method execution using a simple loop. ](#assignment17)
+
+[program18 Write a Java program to demonstrate multithreading by creating multiple threads using the Thread class. ](#assignment18)
+
+[program19 Write  a Java program to demonstrate multithreading using the Runnable interface. ](#assignment19)
+
+[program 20 Write a Java program to demonstrate the use of the List interface and ArrayList class.. ](#assignment20)
+
 [program 21 Write a Java program to demonstrate the use of the LinkedList class and its various methods. ](#assignment21)
 
 [program 22  Write a Java program to demonstrate the use of the ArrayList class and its commonly used methods.](#assignment22)
@@ -231,8 +263,8 @@ class Test5 {
 ```
 <img width="313" height="151" alt="image" src="https://github.com/user-attachments/assets/3089b2cd-c983-46c9-8ede-fb58bbd3cf45" />
 
-[program5 wap to perform time operations ](#assignment5)
-##assignment5
+
+## assignment5
 
 ```
 import java.util.Scanner;
@@ -313,8 +345,8 @@ void output()
 ```
 <img width="292" height="448" alt="image" src="https://github.com/user-attachments/assets/d6f52b8f-8fff-43f1-a2f6-d4022593241c" />
 
-[program6 wap to add time](#assignmet6)
-##assignment6
+
+## assignment6
 ```
 import java.util.Scanner;
 public class TimeAdd2 {
@@ -374,8 +406,8 @@ void output(){
 <img width="305" height="275" alt="image" src="https://github.com/user-attachments/assets/4064e168-79fa-483d-ab36-82a8ba3a7a92" />
 
 
-[program7 wap to add time (2) ](#assignment7)
-##assignment7
+
+## assignment7
 ```
 import java.util.Scanner;
 public class Time_Add {
@@ -435,8 +467,8 @@ void output(){
 <img width="325" height="271" alt="image" src="https://github.com/user-attachments/assets/a17c10f1-8a30-4882-91d4-1b0b422e557b" />
 
 
-[program8 wap to add distances](#assignment8)
-##assignment8
+
+## assignment8
 ```
 
 import java.util.Scanner;
@@ -496,8 +528,8 @@ void output(){
 ```
 <img width="298" height="308" alt="image" src="https://github.com/user-attachments/assets/e6b09783-1498-4c5c-aa28-f6dfefcd4eb2" />
 
-[program9 wap to perform operations on 2D array](#assignment9)
-##assignment9
+
+## assignment9
 ```
 import java.util.Scanner;
 
@@ -561,8 +593,8 @@ class Array {
 <img width="296" height="319" alt="image" src="https://github.com/user-attachments/assets/aa088cd3-952f-41d3-a99c-6eccf446ccb7" />
 
 
-[program10 wap to show abstraction](#assignment10)
-##assignment10
+
+## assignment10
 ```
 package nandani singh;
 
@@ -617,8 +649,8 @@ public class Abst {
 
 
 
-[program11 wap to show  ArrayList operations](#assignment11)
-##assignment11
+
+## assignment11
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -676,8 +708,8 @@ public class Arraylist{
 ```
 <img width="354" height="285" alt="image" src="https://github.com/user-attachments/assets/e55e87c4-202c-4f10-8cce-bc7b8067b7c0" />
 
-[program12 wap to show  LinkedList operations ](#assignment12)
-##assignment12
+
+## assignment12
 ```
 import java.util.LinkedList;
         public class Ldls {
@@ -703,8 +735,7 @@ import java.util.LinkedList;
 <img width="154" height="94" alt="image" src="https://github.com/user-attachments/assets/c50adafe-a886-401f-bd86-88d0c3a1472e" />
 
 
-[program13 wap to show   Hashmap operations ](#assignment13)
-##assignment13
+## assignment13
 ```
 import java.util.HashMap; // Fixed typo: mport -> import
 import java.util.Map;
@@ -768,9 +799,9 @@ public class Hashmappg { // Class name must match your filename (Hashmappg.java)
 
 
 
-[program14 wap to show  HashTree operations ](#assignment14)
 
-##assignment14
+
+## assignment14
 
 ```
 import java.util.TreeSet;
@@ -828,9 +859,7 @@ public class HTree {
 <img width="377" height="244" alt="image" src="https://github.com/user-attachments/assets/544e7b17-83ce-4776-9480-389f35fa5daa" />
 
 
-[program15 wap to show  Stack operations ](#assignment15)
-
-##assignment15
+## assignment15
 ```
 import java.util.Stack;
 
@@ -881,9 +910,8 @@ public class Stackpg {
 ```
 <img width="429" height="232" alt="image" src="https://github.com/user-attachments/assets/12354dfc-ba74-4e31-8c12-5a7561c6234c" />
 
-[program16 wap to show  ](#assignment16)
 
-##assignment16
+## assignment16
 
 
 
@@ -1138,9 +1166,9 @@ try {
 ```
 <img width="434" height="454" alt="image" src="https://github.com/user-attachments/assets/b55fbe6c-1134-4d5f-8a59-937654587b48" />
 
-[program17 Write a Java program to demonstrate the concept of multiple classes and method execution using a simple loop. ](#assignment17)
 
-##assignment17
+
+## assignment17
 
 CODE:-
 ```
@@ -1191,9 +1219,9 @@ OUTPUT:-
 <img width="413" height="165" alt="image" src="https://github.com/user-attachments/assets/1a503523-9d02-4413-8ad1-34d2e50cf279" />
 <img width="488" height="199" alt="image" src="https://github.com/user-attachments/assets/72054c3e-58d4-42d0-81f8-8442539e3f79" />
 
-[program18 Write a Java program to demonstrate multithreading by creating multiple threads using the Thread class. ](#assignment18)
 
-##assignment18
+
+## assignment18
 
 
 CODE:-
@@ -1247,9 +1275,9 @@ OUTPUT:-
 
 <img width="290" height="173" alt="image" src="https://github.com/user-attachments/assets/90a0bcb8-a9cf-45fa-b6e0-d1da2604c44a" />
 
-[program19 Write  a Java program to demonstrate multithreading using the Runnable interface. ](#assignment19)
 
-##assignment19
+
+## assignment19
 
 
 
@@ -1309,9 +1337,9 @@ OUTPUT:-
 
 <img width="367" height="166" alt="image" src="https://github.com/user-attachments/assets/5b63324b-d885-44af-b6d1-b2377435b824" />
 
-[program 20 Write a Java program to demonstrate the use of the List interface and ArrayList class.. ](#assignment20)
 
-##assignment20
+
+## assignment20
 
 CODE:-
 ```
